@@ -38,10 +38,10 @@ const Landingpage = () => {
             {sessionData && (
                 <>
                     <div className="h-screen bg-gray-900">
-                        <h2 className="bg-purple-600 text-white text-center max-w-2xl font-mono shadow-xl text-5xl font-medium m-auto  mb-5 p-5 border-gray-400 rounded-lg">My Todo List:</h2>
+                        <h2 className="bg-purple-600 text-white text-center max-w-2xl font-mono shadow-xl text-5xl font-medium m-auto  mb-5 p-5 mb-24 border-gray-400 rounded-lg">My Todo List:</h2>
                         <div className="flex justify-around">
-                            <CardList data={unDone} status={"UnDone List"} />
-                            <CardList data={done} status={"Done List"} />
+                            <CardList data={unDone} status={"List Belum Selesai"} />
+                            <CardList data={done} status={"List Sudah Selesai"} />
                         </div>
 
                     </div>
